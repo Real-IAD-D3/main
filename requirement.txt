@@ -1,0 +1,28 @@
+* python>=3.9
+* torch>=2.5.1 (preferably with CUDA support, e.g., `torch>=2.5.1+cu121`)
+* torchvision>=0.20.1
+* torchaudio>=2.5.1
+* numpy>=1.26.3
+* opencv-python>=4.11.0
+* Pillow>=11.0.0  (PIL fork)
+* matplotlib>=3.4.2 (for plotting)
+* scikit-learn>=1.6.1
+* scikit-image>=0.24.0
+* einops>=0.8.1
+* timm>=1.0.15 (PyTorch Image Models)
+
+### Utilities & Configuration:
+* pyyaml>=5.4.1 (for YAML configuration files)
+* tqdm>=4.67.1 (for progress bars)
+* easydict>=1.13 (or addict>=2.4.0, for easy dict access)
+* pandas>=2.2.3 (for data manipulation, if applicable)
+* h5py>=3.13.0 (if using HDF5 files)
+
+### Experiment Tracking & Model Hubs (if used):
+* wandb>=0.19.10 (Weights & Biases)
+* huggingface-hub>=0.29.3
+
+### Potentially 3D-Specific (include if your project uses 3D data):
+* open3d>=0.19.0
+* pointnet2-ops>=3.0.0
+* chamferdist>=1.0.3
